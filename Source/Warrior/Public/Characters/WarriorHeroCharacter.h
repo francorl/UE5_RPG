@@ -1,3 +1,5 @@
+#pragma once
+
 #include "Characters/WarriorBaseCharacter.h"
 
 #include "WarriorHeroCharacter.generated.h"
