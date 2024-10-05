@@ -2,6 +2,7 @@
 
 #include "Characters/WarriorBaseCharacter.h"
 #include "GameplayTagContainer.h"
+#include "WarriorTypes/WarriorStructTypes.h"
 #include "WarriorHeroCharacter.generated.h"
 
 class USpringArmComponent;
@@ -42,6 +43,7 @@ private:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Combat", meta = (AllowPrivateAccess = "true"))
 	UHeroCombatComponent* HeroCombatComponent;
+
 
 #pragma endregion
 
