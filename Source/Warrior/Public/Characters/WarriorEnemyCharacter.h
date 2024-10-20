@@ -16,6 +16,11 @@ class WARRIOR_API AWarriorEnemyCharacter : public AWarriorBaseCharacter
 
 public:
 	AWarriorEnemyCharacter();
+
+	//~ Begin PawnCombatInterface Interface.
+	virtual UPawnCombatComponent* GetPawnCombatComponent() const override;
+	//~ End PawnCombatInterface Interface
+
 protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Combat")
 	UEnemyCombatComponent* EnemyCombatComponent;
